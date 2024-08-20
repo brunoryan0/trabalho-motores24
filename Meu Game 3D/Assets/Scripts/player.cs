@@ -5,7 +5,8 @@ using UnityEngine;
 public class player : MonoBehaviour
 {
     public int velocidade = 10;
-    private Rigibody rb; 
+    private Rigidbody rb; 
+
     // Start is called before the first frame update
     void Start()
     {
