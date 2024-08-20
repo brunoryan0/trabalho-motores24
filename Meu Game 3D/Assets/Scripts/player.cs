@@ -22,7 +22,7 @@ public class player : MonoBehaviour
     float v = Input.GetAxis("Vertical"); // -1 pra tras,  nada, 1 ´pra frente
   
    
-    unityEngine.Vector3 direcao = new Vector3(x:h, y:0, z:v);
+    UnityEngine.Vector3 direcao = new Vector3(x:h, y:0, z:v);
     rb.AddForce(direcao * velocidade);
     }
 }
